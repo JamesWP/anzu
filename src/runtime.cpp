@@ -394,6 +394,23 @@ auto vm_stack::print() const -> void
 auto run_program(const bytecode_program& prog) -> void
 {
     run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
+    run<false>(prog);
 }
 
 auto run_program_debug(const bytecode_program& prog) -> void
